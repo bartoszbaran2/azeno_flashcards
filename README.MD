@@ -15,7 +15,7 @@
 4. czy wystawiamy dane w widoku?
    1. stwórz plik serializers.py i w nim klasę serializatora  - format danych (kowersja danych + validacja)
    2. unit tests -> pytest
-5. Stwórz widoki (logika)
+5. Stwórz widoki (logika), jeżeli pełny CRUD to ViewSet
    1. dobieramy odpowiednią klasę do obsługi widoków [wyszukiwarka widoków](https://www.cdrf.co/)
    2. widok musi zwracać Response lub Redirect
    3. logika uprawnień - permission.py
@@ -24,5 +24,6 @@
    1. w pliku urls.py stwórz urlpatterns lub router
    2. podpinamy lokalne urls do globalnych urls -> config/urls.py
    3. Unit tests
-7. postman i stworzenie kolekcji
+7. sprawdzenie dokumentacji openApi(swagger)
+8. postman i stworzenie kolekcji
     1. wyeksportowanie kolekcji do repozytorium
